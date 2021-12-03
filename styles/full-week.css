@@ -8,7 +8,7 @@ p {
     font-size: 26px;
 }
 
-a {
+#back-to-home {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     color: white;
@@ -22,19 +22,22 @@ a {
     border: 1px solid rgb(167, 1, 78);
 }
 
-a:hover {
+#back-to-home:hover {
     background-color: rgb(180, 12, 90);
 }
 
 ol {
     list-style: none;
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
 }
 
 li {
     margin: 32px;
     background-color: rgb(223, 136, 124);
     border-radius: 5px;
-    padding: 5px 8px;
+    padding: 16px;
 }
 
 #goal-1-p {
