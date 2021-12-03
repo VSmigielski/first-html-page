@@ -1,0 +1,47 @@
+h1 {
+    color: purple;
+    font-size: 48px;
+    margin: 12px;
+}
+
+p {
+    font-size: 26px;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(167, 1, 78); /* Green */
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid rgb(167, 1, 78);
+}
+
+a:hover {
+    background-color: rgb(180, 12, 90);
+}
+
+ol {
+    list-style: none;
+}
+
+li {
+    margin: 32px;
+    background-color: rgb(223, 136, 124);
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+#goal-1-p {
+    color: rgb(231, 141, 231);
+}
+
+#goal-2-p {
+    color: rgb(149, 236, 232);
+}
+
