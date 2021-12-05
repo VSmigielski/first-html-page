@@ -1,23 +1,26 @@
 h1 {
     color: purple;
     font-size: 48px;
-    margin: 12px;
 }
 
-p {
-    font-size: 26px;
+/* #description {
+    margin-bottom: 36px;
+} */
+
+header p {
+    margin-bottom: 12px;
 }
 
 #back-to-home {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
     color: white;
     background-color: rgb(167, 1, 78); /* Green */
-    padding: 12px 15px;
+    padding: 15px 35px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 10px;
     border: 1px solid rgb(167, 1, 78);
 }
@@ -38,6 +41,24 @@ li {
     background-color: rgb(223, 136, 124);
     border-radius: 5px;
     padding: 16px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+li h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(78, 13, 5);
+}
+
+/* li p {
+    margin: 12px;
+} */
+
+.daily-goal {
+    margin: 12px;
+}
+
+.highlight-goal {
+    background-color: rgb(226, 115, 101);
 }
 
 #goal-1-p {
@@ -48,3 +69,10 @@ li {
     color: rgb(149, 236, 232);
 }
 
+#goal-3-p {
+    color: rgb(111, 89, 212);
+}
+
+#goal-4-p {
+    color: rgb(103, 223, 153);
+}
